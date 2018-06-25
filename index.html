@@ -1,67 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Page</title>
+	<title>Gallery</title>
 	<style>
-	    h1{
-	    	background-color: yellow;
-	    	color: blue;
-	    	text-align: center;
-	    	border:groove;
-	    }
-		body {
-			background-image: url("eid/phn pics/IMG_20180616_113600.jpg");
-		}
-		#tab1{
-			background-color: rgb(225,225,225);
-			width: 47px;
-			margin-top: 45px;
-			margin-left: 100px;
-			border: inset red 3px;
-		}
-		#tab2{
-			background-color: rgb(225,225,225);
-			width: 93px;
-			margin-top: 45px;
-			margin-left: 100px;
-			border: inset red 3px;
+		body{
+			background-image: url("download.jpg");
 			position: relative;
-			left: 100px;
-			bottom: 70px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
 		}
-		#tab3{
-			background-color: rgb(225,225,225);
-			width: 75px;
-			margin-top: 45px;
-			margin-left: 100px;
-			border: inset red 3px;
-			position: relative;
-			left: 250px;
-			bottom: 140px;
-		}
-		div{
-			margin: 30px;
-			border: 15px;
-			padding:8px;
+		img{
+			width: 20%;
+			transform: rotate(90deg);
+			margin: 90px;		}
+		h2{
+			text-align: right;
 		}
 		a{
-			text-decoration: none;
-			background-color: red;
+			color: rgb(250,250,0);
+		}
+		#vertical{
+			transform: rotate(-90deg);
 		}
 	</style>
 </head>
 <body>
-	<h1>MY PAGE</h1>
-	<div>
-	<p id="tab1">
-	    <a href="my first webpage.html">HOME</a>
-    </p>
-    <p id="tab2">
-    	<a href="https://www.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/p/css-box-model" target="_blank">RESOURCES</a>
-    </p>
-    <p id="tab3">
-    	<a href="file:///C:/Users/SHEEMA/Desktop/about.html">GALLERY</a>
-    </p>
-    </div>
+	<h1 style="font-family: cursive;font-weight: bold;text-align: center;text-decoration-style: solid;text-decoration-line: underline;color: red;">GALLERY<br></h1>
+<h2><a href="file:///C:/Users/SHEEMA/Desktop/my%20first%20webpage.html">return to home page</a></h2><br>
+	<img src="eid/phn pics/IMG_20180616_080803.jpg">
+	<img src="eid/phn pics/IMG_20180616_080838.jpg">
+	<img src="eid/phn pics/IMG_20180616_080845.jpg">
+	<img src="eid/phn pics/IMG_20180616_112610.jpg">
+	<img src="eid/phn pics/IMG_20180616_114915.jpg">
+	<img id="vertical" src="eid/phn pics/IMG_20180616_120213.jpg">
 </body>
 </html>
